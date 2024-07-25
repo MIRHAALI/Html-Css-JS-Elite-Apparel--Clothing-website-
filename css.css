@@ -1,0 +1,310 @@
+#container {
+  width: 100%;
+  /* background-color: rgb(190, 178, 255); */
+  background-color: black;
+  color: white;
+}
+#header {
+  width: 100%;
+  position: fixed;
+  background-color: #0e0a28;
+  padding-top: 1%;
+  z-index: 99;
+}
+#abrand:hover {
+  text-decoration: overline;
+  color: red;
+}
+#bdy {
+  width: 100%;
+}
+#prev {
+  width: 100%;
+}
+.mySlides {
+  display: none;
+}
+#pre1 {
+  display: block;
+}
+#pr1 {
+  max-width: 100%;
+  z-index: 1;
+}
+#nv {
+  font-size: 30px;
+  padding-left: 4%;
+}
+#logo {
+  width: 100%;
+  padding-left: 1%;
+  margin-top: 3%;
+}
+#hlogo {
+  width: 30%;
+}
+#hbrand {
+  text-align: center;
+  font-size: 50px;
+  font-family: "Yellowtail", cursive;
+}
+#brand {
+  margin-top: -3%;
+  text-align: left;
+  padding-left: 0px;
+  margin-left: -3%;
+  font-size: 50px;
+  font-family: "Yellowtail", cursive;
+}
+#nav {
+  float: right;
+  font-size: 30px;
+  margin-right: 1%;
+}
+.nav {
+  color: white;
+  cursor: pointer;
+}
+.nav:hover {
+  color: cornflowerblue;
+  text-decoration: overline;
+}
+#nav2 {
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+  color: white;
+  width: 100%;
+  font-size: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Open Sans", sans-serif;
+}
+.nav2 a:hover {
+  color: rgb(255, 0, 0);
+  text-decoration: overline;
+}
+s {
+  color: red;
+}
+a.menu:hover {
+  text-decoration: overline;
+}
+#men,
+#women,
+#kids,
+#acc {
+  text-align: center;
+  border: 2px solid white;
+  background-color: #0d0922;
+  letter-spacing: 3px;
+}
+.mens {
+  border-right: 1px solid white;
+  border-left: 1px solid white;
+}
+#mimg {
+  width: 100%;
+  height: 60%;
+  background-color: white;
+}
+#mimg:hover {
+  transform: scale(1.12);
+}
+
+#footer {
+  background-color: #090526;
+  color: white;
+}
+#social {
+  font-size: 30px;
+  color: white;
+  text-align: center;
+}
+#fname {
+  font-family: "Supermercado One", cursive;
+  padding-left: 5%;
+  padding-right: 5%;
+  letter-spacing: 5px;
+  font-size: 35px;
+}
+#name {
+  text-transform: uppercase;
+  font-family: sans-serif;
+  letter-spacing: 1px;
+  text-align: center;
+  font-size: 50px;
+  font-weight: 700;
+}
+hr.new {
+  border-top: 1px solid rgb(71, 15, 15);
+  margin-right: 5%;
+  margin-left: 5%;
+}
+a,
+p.social {
+  padding-left: 5%;
+  cursor: pointer;
+}
+#social a:hover {
+  text-decoration: overline;
+  color: red;
+}
+#copyright {
+  height: 20px;
+  text-align: center;
+  background-color: white;
+  color: black;
+  letter-spacing: 7px;
+}
+#lang {
+  color: white;
+  font-size: 20px;
+  font-family: "Quicksand", sans-serif;
+  font-weight: lighter;
+}
+
+.nav2 {
+  color: white;
+}
+
+.sidenav {
+  cursor: pointer;
+  background-color: rgb(36, 15, 15);
+  overflow-x: hidden;
+  padding-top: 5%;
+  transition: 0.3s;
+  height: 100%;
+  width: 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  text-transform: uppercase;
+  font-family: "Open Sans", sans-serif;
+}
+#nv:hover {
+  cursor: pointer;
+}
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #818181;
+  display: block;
+  transition: 0.1s;
+}
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+#tim {
+  text-align: center;
+  background-color: black;
+  border: 3px solid white;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+#timer,
+#timer1,
+#timer2,
+#timer3 {
+  font-size: 2em;
+}
+#wimg {
+  width: 70%;
+  height: 100%;
+}
+#prod {
+  text-align: center;
+  margin-left: 2%;
+  margin-right: 2%;
+  background-color: white;
+}
+#dis {
+  font-weight: 600;
+  background-color: red;
+  border-radius: 20px;
+}
+.collection {
+  font-weight: 500;
+  font-family: "Russo One", sans-serif;
+}
+#form,
+#login {
+  display: none;
+}
+#vids button {
+  font-weight: 700;
+}
+.blinking {
+  animation: blinkingText 0.8s infinite;
+}
+@keyframes blinkingText {
+  0% {
+    color: white;
+  }
+  49% {
+    color: white;
+  }
+  60% {
+    color: rgb(35, 13, 87);
+  }
+  99% {
+    color: rgb(35, 13, 87);
+  }
+  100% {
+    color: white;
+  }
+}
+#btnr {
+  border-radius: 20px;
+}
+#info {
+  background-color: #0d0922;
+}
+/* loader without btn */
+
+#l1 {
+  width: 100%;
+  height: 100%;
+  z-index: 100;
+  position: fixed;
+  animation: loading 3s;
+  visibility: hidden;
+}
+@keyframes loading {
+  0% {
+    background: #0e111f url("../img/loader.gif") no-repeat center center;
+    visibility: visible;
+  }
+  100% {
+    background: #0e111f url("../img/loader.gif") no-repeat center center;
+    visibility: visible;
+  }
+}
+
+/* end of loader */
+
+/* loader with btn */
+
+#preloader {
+  background: #0e111f url("../img/loader.gif") no-repeat center center;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  z-index: 100;
+}
+#start {
+  top: 80%;
+  left: 45%;
+  right: 45%;
+  text-align: center;
+  position: absolute;
+}
+/* end of btn loader */
