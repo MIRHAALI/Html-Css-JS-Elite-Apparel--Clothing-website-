@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Elite Apparel</title>
+  <link rel="stylesheet" href="../css/css.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Quicksand&family=Supermercado+One&family=Yellowtail&display&family=swap"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/w3.css">
+</head>
+
+<body>
+  <div id="l1"></div>
+  <div id="container">
+    <!--          Header            -->
+    <div id=header>
+      <div id="nav1"">
+        <div id="menu" class="sidenav">
+          <a class="closebtn" onclick="closeMenu()">&times;</a>
+          <a href="./men.html" class="menu">Men</a>
+          <a href="./women.html" class="menu">Women</a>
+          <a href="./kids.html" class="menu">Kids</a>
+          <a href="./acc.html" class="menu">Accessories</a>
+        </div>
+      </div>
+      <div id="bar1" class="row">
+        <div class="col">
+          <div id="banner" class="row">
+            <span id="nv" class="fa fa-bars col-1" onclick="openMenu()"></span>
+            <div class="col-2"><a href="../home.html"><img id="logo" src="../img/logo.png"></a></div>
+            <div class="col-8"><a id="abrand" href="../home.html">
+                <h1 id="brand">Elite Apparel</h1>
+              </a></div>
+          </div>
+        </div>
+        <div class="col">
+          <div id="nav" class="row">
+            <div class="col-2"><a class="fa fa-home nav" href="../home.html"></a></div>
+            <div class="col-2"><a class="fa fa-shopping-cart nav" href="./prod.html"></a></div>
+            <div class="col-2"><a class="fa fa-info-circle nav" href="./info.html"></a></div>
+            <div class="col-2"><a class="fa fa-phone nav" href="./contact.html"></a></div>
+            <div id="cartt" class="col-2 w3-display-container">
+              <a style="opacity: 0.5;" class="fa fa-shopping-cart w3-content w3-display-container nav"></a>
+              <div class="w3-display-middle w3-container">
+                <h5 id="cart">0</h5>
+              </div>
+            </div>
+            <div class="col-2 w3-display-container">
+              <a style="opacity: 0.5;" class="fa fa-heart w3-content w3-display-container nav"></a>
+              <div class="w3-display-middle w3-container">
+                <h5 id="fav">0</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  <div id="bdy">
+    <br><br><br><br>
+    <div id="prev">
+      <div class="w3-content w3-display-container" id="pr1">
+        <div class="w3-display-container mySlides" id="pre1">
+          <img src="../img/prev1.jpg" style="width:100%">
+          <div class="w3-display-topright w3-large w3-container w3-padding-16">
+            <h5 id="name">Fall-Winter<br>Collection 2022</h5>
+            <h2 id="name"><span class="blinking" id="dis">30% off</span> till:</h2>
+            <table id="tim" width="100%" border="1|0">
+              <tr id="timer"></tr>
+              <tr>
+                <td>
+                  <p>Days</p>
+                </td>
+                <td>
+                  <p> Hrs</p>
+                </td>
+                <td>
+                  <p>Mins</p>
+                </td>
+                <td>
+                  <p>Secs</p>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </div>
+
+        <div class="w3-display-container mySlides">
+          <img src="../img/prev2.jpg" style="width:100%">
+          <div class="w3-display-topleft w3-large w3-container w3-padding-16">
+            <h5 id="name">Fall-Winter<br>Collection 2022</h5>
+            <h2 id="name"><span class="blinking" id="dis">30% off</span> till:</h2>
+            <table id="tim" width="100%" border="1|0">
+              <tr id="timer1"></tr>
+              <tr>
+                <td>
+                  <p>Days</p>
+                </td>
+                <td>
+                  <p> Hrs</p>
+                </td>
+                <td>
+                  <p>Mins</p>
+                </td>
+                <td>
+                  <p>Secs</p>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </div>
+
+        <div class="w3-display-container mySlides">
+          <img src="../img/prev3.jpg" style="width:100%">
+          <div class="w3-display-topleft w3-large w3-container w3-padding-16">
+            <h5 id="name">Fall-Winter<br>Collection 2022</h5>
+            <h2 id="name"><span class="blinking" id="dis">30% off</span> till:</h2>
+            <table id="tim" width="100%" border="1|0">
+              <tr id="timer2"></tr>
+              <tr>
+                <td>
+                  <p>Days</p>
+                </td>
+                <td>
+                  <p> Hrs</p>
+                </td>
+                <td>
+                  <p>Mins</p>
+                </td>
+                <td>
+                  <p>Secs</p>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </div>
+
+        <div class="w3-display-container mySlides">
+          <img src="../img/mprev1.jpg" style="width:100%">
+          <div class="w3-display-topright w3-large w3-container w3-padding-16">
+            <h5 id="name">Fall-Winter<br>Collection 2022</h5>
+            <h2 id="name"><span class="blinking" id="dis">30% off</span> till:</h2>
+            <table id="tim" width="100%" border="1|0">
+              <tr id="timer3"></tr>
+              <tr>
+                <td>
+                  <p>Days</p>
+                </td>
+                <td>
+                  <p> Hrs</p>
+                </td>
+                <td>
+                  <p>Mins</p>
+                </td>
+                <td>
+                  <p>Secs</p>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </div>
+        <button class="w3-button w3-display-left w3-black" onclick="plusDivs(-1)">&#10094;</button>
+        <button class="w3-button w3-display-right w3-black" onclick="plusDivs(1)">&#10095;</button>
+      </div>
+    </div><br>
+    <div id="prod">
+
+      <!--                  MENS                         -->
+      <div id="men">
+        <center>
+          <h1 style='border-bottom: 2px solid white;  '><b>For Men</b></h1>
+        </center>
+        <div style="padding-top: 1%;" class="row w3-container" id="mcloth">
+          <div class="col-4 mens">
+            <div id="mimg"><img src="../img/men1.jpg" id="wimg" alt=""></div><br>
+            <h2><b>SKINNY-FIT SUIT BLAZER</b></h2>
+            <h4><s>$109.90</s><br><b>$89.95</b></h4>
+            <div class="row">
+              <div class="col"><button id="btnr" class="btn btn-block btn-success pl-4 pr-4" onclick="cart()">Add to Cart</button></div>
+              <div class="col"><button id="btnr" class="btn btn-block btn-danger pl-4 pr-4" onclick="fav()">Add to Favorites</button></div>
+            </div>
+          </div>
+          <div class="col-4 mens">
+            <div id="mimg"><img src="../img/men2.jpg" id="wimg" alt=""></div><br>
+            <h2   ><b>COMFORT-FIT BLAZER</b></h2>
+            <h4   ><s>$79.99</s><br><b>$49.95</b></h4>
+            <div class="row">
+              <div class="col"><button id="btnr" class="btn btn-block btn-success pl-4 pr-4" onclick="cart()">Add to Cart</button></div>
+              <div class="col"><button id="btnr" class="btn btn-block btn-danger pl-4 pr-4" onclick="fav()">Add to Favorites</button></div>
+            </div>
+          </div>
+          <div class="col-4 mens">
+            <div id="mimg"><img src="../img/men3.jpg" id="wimg" alt=""></div><br>
+            <h2   ><b>POLO-COLLAR SWEATSHIRT</b></h2>
+            <h4   ><s>$50.99</s><br><b>$29.95</b></h4>
+            <div class="row">
+              <div class="col"><button id="btnr" class="btn btn-block btn-success pl-4 pr-4" onclick="cart()">Add to Cart</button></div>
+              <div class="col"><button id="btnr" class="btn btn-block btn-danger pl-4 pr-4" onclick="fav()">Add to Favorites</button></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--         END of mens sect        -->
+
+      <!--            Women                -->
+      <div id="women">
+        <center>
+          <h1 style='border-bottom: 2px solid white;  '><b>For Women</b></h1>
+        </center>
+        <div style="padding-top: 1%;" class="row w3-container" id="mcloth">
+          <div class="col-4 mens">
+            <div id="mimg"><img src="../img/women1.jpg" id="wimg" alt=""></div><br>
+            <h2   ><b>SLEEVELESS KNIT DRESS</b></h2>
+            <h4   ><s>$89.99</s><br><b>$69.90</b></h4>
+            <div class="row">
+              <div class="col"><button id="btnr" class="btn btn-block btn-success pl-4 pr-4" onclick="cart()">Add to Cart</button></div>
+              <div class="col"><button id="btnr" class="btn btn-block btn-danger pl-4 pr-4" onclick="fav()">Add to Favorites</button></div>
+            </div>
+          </div>
+          <div class="col-4 mens">
+            <div id="mimg"><img src="../img/women2.jpg" id="wimg" alt=""></div><br>
+            <h2   ><b>CONTRAST KNOTTED DRESS</b></h2>
+            <h4   ><s>$49.99</s><br><b>$29.95</b></h4>
+            <div class="row">
+              <div class="col"><button id="btnr" class="btn btn-block btn-success pl-4 pr-4" onclick="cart()">Add to Cart</button></div>
+              <div class="col"><button id="btnr" class="btn btn-block btn-danger pl-4 pr-4" onclick="fav()">Add to Favorites</button></div>
+            </div>
+          </div>
+          <div class="col-4 mens">
+            <div id="mimg"><img src="../img/women3.jpg" id="wimg" alt=""></div><br>
+            <h2   ><b>CONTRAST KNOTTED DRESS</b></h2>
+            <h4   ><s>$39.99</s><br><b>$19.95</b></h4>
+            <div class="row">
+              <div class="col"><button id="btnr" class="btn btn-block btn-success pl-4 pr-4" onclick="cart()">Add to Cart</button></div>
+              <div class="col"><button id="btnr" class="btn btn-block btn-danger pl-4 pr-4" onclick="fav()">Add to Favorites</button></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--         END of womens sect        -->
+
+      <!--                    kids                              -->
+      <div id="kids">
+        <center>
+          <h1 style='border-bottom: 2px solid white;  '><b>For Kids</b></h1>
+        </center>
+        <div style="padding-top: 1%;" class="row w3-container" id="mcloth">
+          <div class="col-4 mens">
+            <div id="mimg"><img src="../img/kid1.jpg" id="wimg" alt=""></div><br>
+            <h2   ><b>CONTRAST BOMBER JACKET</b></h2>
+            <h4   ><s>$49.99</s><br><b>$29.95</b></h4>
+            <div class="row">
+              <div class="col"><button id="btnr" class="btn btn-block btn-success pl-4 pr-4" onclick="cart()">Add to Cart</button></div>
+              <div class="col"><button id="btnr" class="btn btn-block btn-danger pl-4 pr-4" onclick="fav()">Add to Favorites</button></div>
+            </div>
+          </div>
+          <div class="col-4 mens">
+            <div id="mimg"><img src="../img/kid2.jpg" id="wimg" alt=""></div><br>
+            <h2   ><b>TRENCH COAT WITH CHECKED</b></h2>
+            <h4   ><s>$49.99</s><br><b>$35.95</b></h4>
+            <div class="row">
+              <div class="col"><button id="btnr" class="btn btn-block btn-success pl-4 pr-4" onclick="cart()">Add to Cart</button></div>
+              <div class="col"><button id="btnr" class="btn btn-block btn-danger pl-4 pr-4" onclick="fav()">Add to Favorites</button></div>
+            </div>
+          </div>
+          <div class="col-4 mens">
+            <div id="mimg"><img src="../img/kid3.jpg" id="wimg" alt=""></div><br>
+            <h2   ><b>LONGLINE PUFFER JACKET</b></h2>
+            <h4   ><s>$89.99</s><br><b>$65.95</b></h4>
+            <div class="row">
+              <div class="col"><button id="btnr" class="btn btn-block btn-success pl-4 pr-4" onclick="cart()">Add to Cart</button></div>
+              <div class="col"><button id="btnr" class="btn btn-block btn-danger pl-4 pr-4" onclick="fav()">Add to Favorites</button></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--         END of kids sect        -->
+
+      <!--                    acc                              -->
+      <div id="acc">
+        <center>
+          <h1 style='border-bottom: 2px solid white;  '><b>For Accessories</b></h1>
+        </center>
+        <div style="padding-top: 1%;" class="row w3-container" id="mcloth">
+          <div class="col-4 mens">
+            <div id="mimg"><img src="../img/acc1.jpg" id="wimg" alt=""></div><br>
+            <h2   ><b>SOFT KNIT SCARF</b></h2>
+            <h4   ><s>$29.99</s><br><b>$19.95</b></h4>
+            <div class="row">
+              <div class="col"><button id="btnr" class="btn btn-block btn-success pl-4 pr-4" onclick="cart()">Add to Cart</button></div>
+              <div class="col"><button id="btnr" class="btn btn-block btn-danger pl-4 pr-4" onclick="fav()">Add to Favorites</button></div>
+            </div>
+          </div>
+          <div class="col-4 mens">
+            <div id="mimg"><img src="../img/acc2.jpg" id="wimg" alt=""></div><br>
+            <h2   ><b>BASIC SCARF</b></h2>
+            <h4   ><s>$39.99</s><br><b>$19.95</b></h4>
+            <div class="row">
+              <div class="col"><button id="btnr" class="btn btn-block btn-success pl-4 pr-4" onclick="cart()">Add to Cart</button></div>
+              <div class="col"><button id="btnr" class="btn btn-block btn-danger pl-4 pr-4" onclick="fav()">Add to Favorites</button></div>
+            </div>
+          </div>
+          <div class="col-4 mens">
+            <div id="mimg"><img src="../img/acc3.jpg" id="wimg" alt=""></div><br>
+            <h2   ><b>METAL STRAP WATCH</b></h2>
+            <h4   ><s>$109.99</s><br><b>$89.95</b></h4>
+            <div class="row">
+              <div class="col"><button id="btnr" class="btn btn-block btn-success pl-4 pr-4" onclick="cart()">Add to Cart</button></div>
+              <div class="col"><button id="btnr" class="btn btn-block btn-danger pl-4 pr-4" onclick="fav()">Add to Favorites</button></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--         END of acc sect        -->
+    </div>
+  </div>
+  <br><br><br><br>
+  <div id="footer">
+    <br>
+    <h5 id="fname">Elite Apparel</h5>
+    <hr class="new">
+    <br><br>
+    <div style="width: 100%;display: block;" id="social" class="row">
+      <p class="fa social col-2">&#xf0ac<span id="lang"><b> ENGLISH</span></p>
+      <a target="_blank" href="https://www.facebook.com/" class="fa fa-facebook social col-2"></a>
+      <a target="_blank" href="https://www.instagram.com/" class="fa fa-instagram social col-2"></a>
+      <a target="_blank" href="https://twitter.com/" class="fa fa-twitter social col-2"></a>
+      <a target="_blank" href="https://youtube.com/" class="fa fa-youtube-play social col-2"></a>
+      <a target="_blank" href="https://pinterest.com/" class="fa fa-pinterest social col-1"></a>
+    </div>
+    <br>
+    <div id="copyright">
+      <p><span class="fa fa-copyright"></span> Copyright 2021 By Elite Apparel Designed By Shujaat Hussain</p>
+    </div>
+  </div>
+  </div>
+  <script src="../js/js.js"></script>
+</body>
+</html>

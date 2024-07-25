@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Elite Apparel</title>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="../css/css.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="/dist/output.css" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Quicksand&family=Supermercado+One&family=Yellowtail&display&family=swap"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+  <script src="../js/js.js"></script>
+  <link rel="stylesheet" href="../css/w3.css">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    .container {
+      max-width: 1100px;
+      margin: auto;
+      padding: 0 2rem;
+    }
+
+    img {
+      width: 100%;
+    }
+
+    .card {
+      display: grid;
+      grid-template-columns: 1fr 2fr;
+      grid-gap: 2rem;
+      background: #120c2e;
+      margin-bottom: 2rem;
+      border-radius: 40px;
+    }
+
+    .card h3 {
+      margin-bottom: 2rem;
+    }
+
+    .card img {
+      height: 400px;
+    }
+
+    .card>div {
+      padding: 2rem;
+    }
+
+    .card:nth-child(even) img {
+      order: 2;
+    }
+
+    @media(max-width:800px) {
+      .card {
+        display: block;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <dir id="l1"></dir>
+  <div id="container">
+    <!--          Header            -->
+    <div id=header>
+      <div id="bar1" class="row">
+        <div class="col">
+          <div id="banner" class="row">
+            <div class="col-1"></div>
+            <div class="col-2"><a href="../home.html"><img id="logo" src="../img/logo.png"></a></div>
+            <div class="col-5"><a id="abrand" href="../home.html">
+                <h1 id="brand">Elite Apparel</h1>
+              </a></div>
+            <div class="col-4"></div>
+          </div>
+        </div>
+        <div class="col">
+          <div id="nav" class="row">
+            <div class="col-2"><a class="fa fa-home nav" href="../home.html"></a></div>
+            <div class="col-2"><a class="fa fa-shopping-cart nav" href="./prod.html"></a></div>
+            <div class="col-2"><a class="fa fa-info-circle nav" href="./info.html"></a></div>
+            <div class="col-2"><a class="fa fa-phone nav" href="./contact.html"></a></div>
+            <div id="cartt" class="col-2 w3-display-container">
+              <a style="opacity: 0.5;" class="fa fa-shopping-cart w3-content w3-display-container nav"></a>
+              <div class="w3-display-middle w3-container">
+                <h5 id="cart">0</h5>
+              </div>
+            </div>
+            <div class="col-2 w3-display-container">
+              <a style="opacity: 0.5;" class="fa fa-heart w3-content w3-display-container nav"></a>
+              <div class="w3-display-middle w3-container">
+                <h5 id="fav">0</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="nav2" class="row">
+          <div class="col-3 nav2"><a href="./men.html">Men</a></div>
+          <div class="col-3 nav2"><a href="./women.html">Women</a></div>
+          <div class="col-3 nav2"><a href="./kids.html">Kids</a></div>
+          <div class="col-3 nav2"><a href="./acc.html">Accessories</a></div>
+        </div>
+      </div>
+    </div>
+    <div id="bdy">
+      <br><br><br><br><br>
+      <div id="prev">
+        <div class="w3-content w3-display-container" id="pr1">
+          <div class="w3-display-container mySlides" id="pre1">
+            <img src="../img/macc2.jpg" style="width:100%">
+            <div class="w3-display-topright w3-large w3-container w3-padding-16">
+              <h5 id="name">Men's Fall<br>Collection 2022</h5>
+              <h2 id="name"><span class="blinking" id="dis">30% off</span> till:</h2>
+              <table id="tim" width="100%" border="1|0">
+                <tr id="timer"></tr>
+                <tr>
+                  <td>
+                    <p>Days</p>
+                  </td>
+                  <td>
+                    <p> Hrs</p>
+                  </td>
+                  <td>
+                    <p>Mins</p>
+                  </td>
+                  <td>
+                    <p>Secs</p>
+                  </td>
+                </tr>
+              </table>
+            </div>
+          </div>
+
+          <div class="w3-display-container mySlides">
+            <img src="../img/macc1.jpg" style="width:100%">
+            <div class="w3-display-topleft w3-large w3-container w3-padding-16">
+              <h5 id="name">Men's Fall<br>Collection 2022</h5>
+              <h2 id="name"><span class="blinking" id="dis">30% off</span> till:</h2>
+              <table id="tim" width="100%" border="1|0">
+                <tr id="timer1"></tr>
+                <tr>
+                  <td>
+                    <p>Days</p>
+                  </td>
+                  <td>
+                    <p> Hrs</p>
+                  </td>
+                  <td>
+                    <p>Mins</p>
+                  </td>
+                  <td>
+                    <p>Secs</p>
+                  </td>
+                </tr>
+              </table>
+            </div>
+          </div>
+
+          <div class="w3-display-container mySlides">
+            <img src="../img/macc3.jpg" style="width:100%">
+            <div class="w3-display-topleft w3-large w3-container w3-padding-16">
+              <h5 id="name">Men's Fall<br>Collection 2022</h5>
+              <h2 id="name"><span class="blinking" id="dis">30% off</span> till:</h2>
+              <table id="tim" width="100%" border="1|0">
+                <tr id="timer2"></tr>
+                <tr>
+                  <td>
+                    <p>Days</p>
+                  </td>
+                  <td>
+                    <p> Hrs</p>
+                  </td>
+                  <td>
+                    <p>Mins</p>
+                  </td>
+                  <td>
+                    <p>Secs</p>
+                  </td>
+                </tr>
+              </table>
+            </div>
+          </div>
+
+          <div class="w3-display-container mySlides">
+            <img src="../img/macc4.jpg" style="width:100%">
+            <div class="w3-display-topright w3-large w3-container w3-padding-16">
+              <h5 id="name">Men's Fall<br>Collection 2022</h5>
+              <h2 id="name"><span class="blinking" id="dis">30% off</span> till:</h2>
+              <table id="tim" width="100%" border="1|0">
+                <tr id="timer3"></tr>
+                <tr>
+                  <td>
+                    <p>Days</p>
+                  </td>
+                  <td>
+                    <p> Hrs</p>
+                  </td>
+                  <td>
+                    <p>Mins</p>
+                  </td>
+                  <td>
+                    <p>Secs</p>
+                  </td>
+                </tr>
+              </table>
+            </div>
+          </div>
+          <button class="w3-button w3-display-left w3-black" onclick="plusDivs(-1)">&#10094;</button>
+          <button class="w3-button w3-display-right w3-black" onclick="plusDivs(1)">&#10095;</button>
+
+        </div>
+      </div><br>
+      <div id="mens-product">
+        <main class="container">
+          <section class="card" data-aos="fade-right">
+            <img src="../img/accc1.jpg" alt="">
+            <div>
+              <h3>Air Force 1 low top sneakers</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus nam enim quasi voluptatum
+                nostrum nesciunt
+                itaque exercitationem eos odio, omnis voluptas recusandae unde modi totam illo impedit doloribus, sed
+                obcaecati!<br>
+                <s>$300.55 </s> <b> $225.55</b>
+              </p>
+              <button onclick="cart()" class="btn btn-success">Buy Now</button>
+              <button onclick="fav()" class="btn btn-danger">Favorite</button>
+          </section>
+          <section style="grid-template-columns: 2fr 1fr;" class="card" data-aos="fade-left">
+            <img src="../img/accc2.jpg" alt="">
+            <div>
+              <h3>CHAIN NECKLACE</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus nam enim quasi voluptatum
+                nostrum nesciunt
+                itaque exercitationem eos odio, omnis voluptas recusandae unde modi totam illo impedit doloribus, sed
+                obcaecati!<br>
+                <s>$250.55 </s> <b> $200.55</b>
+              </p>
+              <button onclick="cart()" class="btn btn-success">Buy Now</button>
+              <button onclick="fav()" class="btn btn-danger">Favorite</button>
+            </div>
+          </section>
+          <section class="card" data-aos="fade-right">
+            <img src="../img/accc3.jpg" alt="">
+            <div>
+              <h3>METAL DRESS WRISTWATCH</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus nam enim quasi voluptatum
+                nostrum nesciunt itaque exercitationem eos odio, omnis voluptas recusandae unde modi totam illo impedit
+                doloribus, sed obcaecati!<br>
+                <s>$170.55 </s> <b> $145.55</b>
+              </p>
+              <button onclick="cart()" class="btn btn-success">Buy Now</button>
+              <button onclick="fav()" class="btn btn-danger">Favorite</button>
+            </div>
+          </section>
+          <section style="grid-template-columns: 2fr 1fr;" data-aos="fade-left" class="card">
+            <img src="../img/accc4.jpg" alt="">
+            <div>
+              <h3>EMBOSSED PHONE CASE</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus nam enim quasi voluptatum
+                nostrum nesciunt
+                itaque exercitationem eos odio, omnis voluptas recusandae unde modi totam illo impedit doloribus, sed
+                obcaecati!<br>
+                <s>$150.55 </s> <b> $100.55</b>
+              </p>
+              <button onclick="cart()" class="btn btn-success">Buy Now</button>
+              <button onclick="fav()" class="btn btn-danger">Favorite</button>
+            </div>
+          </section>
+        </main>
+      </div>
+    </div>
+    <div id="footer" data-aos="fade-up">
+      <br>
+      <h5 id="fname">Elite Apparel</h5>
+      <hr class="new">
+      <br><br>
+      <div style="width: 100%;display: block;" id="social" class="row">
+        <p class="fa social col-2">&#xf0ac<span id="lang"><b> ENGLISH</span></p>
+        <a target="_blank" href="https://www.facebook.com/" class="fa fa-facebook social col-2"></a>
+        <a target="_blank" href="https://www.instagram.com/" class="fa fa-instagram social col-2"></a>
+        <a target="_blank" href="https://twitter.com/" class="fa fa-twitter social col-2"></a>
+        <a target="_blank" href="https://youtube.com/" class="fa fa-youtube-play social col-2"></a>
+        <a target="_blank" href="https://pinterest.com/" class="fa fa-pinterest social col-1"></a>
+      </div>
+      <br>
+      <div id="copyright">
+        <p><span class="fa fa-copyright"></span> Copyright 2021 By Elite Apparel Designed By Shujaat Hussain</p>
+      </div>
+    </div>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 1100
+      });
+    </script>
+</body>
+
+</html>

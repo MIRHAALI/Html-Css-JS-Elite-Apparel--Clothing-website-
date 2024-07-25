@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>Elite Apparel</title>
+ <link rel="stylesheet" href="../css/css.css">
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+  integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Quicksand&family=Supermercado+One&family=Yellowtail&display&family=swap"
+  rel="stylesheet">
+ <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+ <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../css/w3.css">
+<style>
+  input{
+  border-radius: 20px;
+}
+</style>
+</head>
+
+<body>
+ <dir id="l1"></dir>
+ <div id="container">
+  <!--          Header            -->
+  <div id=header>
+   <div id="bar1" class="row">
+    <div class="col">
+     <div id="banner" class="row">
+      <div class="col-2"><a href="../home.html"><img id="logo" src="../img/logo.png"></a></div>
+      <div class="col-8"><a id="abrand" href="../home.html">
+        <h1 id="brand">Elite Apparel</h1>
+       </a></div>
+     </div>
+    </div>
+    <div class="col">
+     <div id="nav" class="row">
+      <div class="col"><a class="fa fa-home nav" href="../home.html"></a></div>
+      <div class="col"><a class="fa fa-shopping-cart nav" href="./prod.html"></a></div>
+      <div class="col"><a class="fa fa-info-circle nav" href="./info.html"></a></div>
+      <div class="col"><a class="fa fa-phone nav" href="./contact.html"></a></div>
+     </div>
+    </div>
+    <div id="nav2" class="row">
+     <div class="col-3 nav2"><a href="./men.html">Men</a></div>
+     <div class="col-3 nav2"><a href="./women.html">Women</a></div>
+     <div class="col-3 nav2"><a href="./kids.html">Kids</a></div>
+     <div class="col-3 nav2"><a href="./acc.html">Accessories</a></div>
+    </div>
+   </div>
+  </div>
+  <!--          Products/body         -->
+  <br><br><br><br><br>
+  <div id="bdy">
+   <div id="contact" class="w3-display-container">
+    <video width="100%" height="50%" loop muted autoplay>
+     <source src="../img/contact.mp4" type="video/mp4">
+    </video>
+    <div style="padding-bottom: 10%;" class="w3-display-topmiddle w3-large w3-container">
+     <h2 id="hbrand">Contact Us</h2>
+    </div>
+    <div style="padding-bottom: 10%;" class="w3-display-bottommiddle w3-large w3-container">
+     <button class="btn btnr btn-info pr-5 pl-5" onclick="acc()">Create a new Account</button>
+     <button class="btn btnr btn-info pr-5 pl-5"onclick="login()">Already a Member</button>
+    </div>
+   </div>
+   <br>
+   <div class="container" id="login">
+    <div style="width:50%;background-color:rgb(6, 6, 39);border-radius: 20px;" class="container">
+      <form onsubmit="valiadate()">
+        <br>
+        <h3 style="text-align: center;font-family:'Supermercado One',cursive;">
+          <b>LOG IN</b>
+        </h3>
+        <div class="container">
+          <label id="labels">Username:</label><br>
+          <input required class="btn-block btn-light" id="user" type="text">
+          <br><br>
+          <label id="labels" id="labels">Password:</label><br>
+          <input required class="btn-block btn-light" id="pass" type="password">
+          <br><br>
+          <input id="btnr" class="btn btn-block btn-success pl-4 pr-4" type="submit" value="Login">
+        </div>
+      </form>
+      <br><br><br>
+    </div>
+    <br>
+   </div>
+   <div id="form" class="container">
+     <div class="container" style="width:50%;background-color:rgb(6, 6, 39);border-radius: 20px;">
+      <form onsubmit="formValidate()">
+        <br>
+        <h3 style="text-align: center;font-family:'Supermercado One',cursive;">SIGN UP</h3>
+        <br><br>
+        <label id="labels">Name:</label><span id="iii1"></span><br>
+        <input id="nme" class="btn-block btn-light" required type="text">
+        <br>
+        <label id="labels" for="">Email:</label><br>
+        <input class="btn-block btn-light" required type="email" name="" id="mail">
+        <br>
+        <label id="labels" for="">Password:</label><br>
+        <input class="btn-block btn-light" required type="password" id="pass1"><br>
+        <label id="labels" for="">Confirm Password:</label><br>
+        <input class="btn-block btn-light" required type="password" id="pass2">
+        <br>
+        <label id="labels" for="">Occupation:</label><br>
+        <label id="student" for="">Student</label>
+        <input class="btn btn-light" value="Student" type="radio" name="student" id="student">
+        <label id="labels" for="">Intern</label>
+        <input class="btn btn-light" value="Intern" type="radio" name="student" id="student">
+        <label id="labels" for="">Employee</label>
+        <input class="btn btn-light" value="Employee" type="radio" name="student" id="student">
+        <br>
+        <label id="gender">Gender</label><br>
+        <select required name="labels" id="gend">
+          <option value="Male">Male</option>
+          <option value="Female">Female</option>
+          <option value="Other">Other</option>
+        </select>
+        <br>
+        <label id="labels" for="">Extra:</label><br>
+        <textarea class="btn-block" rows="4"></textarea>
+        <br>
+        <br>
+        <button id="btnr" class="btn btn-block btn-success pl-4 pr-4" type="submit">Sign up</button>
+        <br><br>
+      </form>
+     </div>
+     <br>
+   </div>
+  </div>
+  <div id="footer">
+    <br>
+   <h5 id="fname">Elite Apparel</h5>
+   <hr class="new">
+   <br><br>
+   <div id="social" class="row">
+    <p class="fa social col-2">&#xf0ac<span id="lang"><b> ENGLISH</span></p>
+    <a target="_blank" href="https://www.facebook.com/" class="fa fa-facebook social col-2"></a>
+    <a target="_blank" href="https://www.instagram.com/" class="fa fa-instagram social col-2"></a>
+    <a target="_blank" href="https://twitter.com/" class="fa fa-twitter social col-2"></a>
+    <a target="_blank" href="https://youtube.com/" class="fa fa-youtube-play social col-2"></a>
+    <a target="_blank" href="https://pinterest.com/" class="fa fa-pinterest social col-1"></a>
+   </div>
+   <br>
+   <div id="copyright">
+    <p><span class="fa fa-copyright"></span> Copyright 2021 By Elite Apparel Designed By Shujaat Hussain</p>
+   </div>
+  </div>
+ </div>
+ <script src="../js/js.js"></script>
+</body>
+
+</html>
